@@ -16,7 +16,8 @@
   margin-left: 25px;
 }
 
-.screen-header__icons span:nth-of-type(2) {
+.screen-header__icons span:nth-of-type(2),
+.screen-header__icons span:nth-of-type(3) {
   position: relative;
 }
 
