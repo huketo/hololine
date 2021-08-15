@@ -14,17 +14,18 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  height: calc(100% - 268px);
 }
 
 .friends-screen__channel {
   margin-top: 25px;
   border-top: var(--main-border);
   padding-top: 15px;
-  height: 500px;
+  height: calc(100% - 168px);
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   color: rgba(0, 0, 0, 0.5);
