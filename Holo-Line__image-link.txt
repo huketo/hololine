@@ -1,0 +1,138 @@
+■ Hololive Logo:
+https://static.wikia.nocookie.net/youtube/images/f/f5/Hololive.jpeg/revision/latest/top-crop/width/360/height/360?cb=20210604115308
+
+■ Now Loading(Gura):
+https://c.tenor.com/_jGqjsqWaocAAAAC/gawr-gura-loading-gawr.gif
+
+■ CEO
+Yagoo:
+https://memeprod.sgp1.digitaloceanspaces.com/user-resource/e48a11585081e860a7f3c90cc0fbe345.png
+
+★ JP
+■ 0th gen.
+Tokino Sora:
+
+
+Roboco:
+
+
+Hoshimachi Suisei:
+
+
+Sakura Miko:
+
+
+■ Inonaka Music.
+AZKi:
+
+
+■ 1th gen.
+Yozora Mel:
+
+
+Shirakami Fubuki:
+
+
+Natsuiro Matsuri:
+
+
+Aki Rosenthal:
+
+
+Akai Haato:
+
+
+■ 2th gen.
+Minato Aqua:
+
+
+Murasaki Shion:
+
+
+Nakiri Ayame:
+
+
+Yuzuki Choco:
+
+
+Oozora Subaru:
+
+
+■ Hololive Gamers.
+Shirakami Fubuki icon:
+
+Ookami Mio:
+
+
+Nekomata Okayu:
+
+
+Inugami Korone:
+
+
+■ 3th gen.
+Usada Pekora:
+
+
+Uruha Rushia:
+
+
+Shiranui Flare:
+
+
+Shirogane Noel:
+
+
+Houshou Marine:
+
+
+■ 4th gen.
+Amane Kanata:
+
+
+Tsunomaki Watame:
+
+
+Tokoyami Towa:
+
+
+Himemori Luna:
+
+
+Kiryu Coco †:
+
+
+■ 5th gen.
+Yukihana Lamy:
+
+
+Momosuzu Nene:
+
+
+Shishiro Botan:
+
+
+Omaru Polka:
+
+
+Unknown †:
+
+
+★ EN
+
+
+
+<div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://yt3.ggpht.com/yti/APfAmoHX2_3GgoYwQnjheEC1mJcRQgMgGwIe6EflW9b_Jw=s108-c-k-c0x00ffffff-no-rj" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <div>
+                        <span>2</span>
+                        <i class="fas fa-chevron-right fa-xs"></i> 
+                    </div>
+                </div>
+            </div>

@@ -6,6 +6,21 @@
   align-items: center;
 }
 
+.welcome-header__logo img {
+  width: 200px;
+  height: 200px;
+}
+
+.welcome-header__logo-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--blue);
+}
+
+.welcome-header__logo {
+  margin-bottom: 50px;
+}
+
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
@@ -38,11 +53,11 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--blue);
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: var(--blue);
   cursor: pointer;
   padding: 15px 0px;
   border-radius: 5px;
