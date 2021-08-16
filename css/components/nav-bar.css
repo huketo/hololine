@@ -84,3 +84,7 @@
 .nav__btn:last-child {
   animation-delay: 0.8s;
 }
+
+.nav__btn i:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
