@@ -41,6 +41,10 @@
   }
 }
 
+#splash-screen img {
+  transform: scale(0.7);
+}
+
 #splash-screen {
   background-color: #fcfbfc;
   position: absolute;
