@@ -1,5 +1,6 @@
 .user-component {
   width: 100%;
+  padding: 10px 0px;
   justify-content: space-between;
 }
 
@@ -14,6 +15,7 @@
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .user-component__title {
@@ -56,4 +58,8 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }

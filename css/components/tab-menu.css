@@ -63,3 +63,19 @@
 .tab-menu input:checked ~ .tab-menu__tab-con {
   display: block;
 }
+
+.tab-menu__tab-con .user-component__column a:first-of-type {
+  color: #ff0000;
+}
+
+.tab-menu__tab-con .user-component__column a:nth-of-type(2) {
+  color: #6cc3f7;
+  margin: 0px 10px;
+}
+
+.tab-menu__tab-con__title {
+  color: var(--text-color-gray);
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 5px;
+}
