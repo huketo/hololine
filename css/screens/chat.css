@@ -1,6 +1,12 @@
 #chat-screen {
   background-color: #abc1d1;
   height: 500vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#chat-screen::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
 }
 
 #chat-screen .alt-header,
