@@ -1,3 +1,18 @@
+.settings-screen {
+  height: calc(100% - 200px);
+}
+
+.settings-list {
+  height: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.settings-list::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
 .settings__setting {
   padding: 20px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -15,4 +30,23 @@
 
 .settings__setting-column:last-child {
   opacity: 0.5;
+}
+
+.settings__setting:nth-of-type(3) {
+  border: none;
+}
+
+.settings__setting:nth-of-type(11) {
+  border: none;
+}
+
+.settings__setting:last-of-type {
+  border: none;
+}
+
+.settings-list__line {
+  margin: 20px 0px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
 }
