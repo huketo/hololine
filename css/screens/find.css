@@ -1,3 +1,7 @@
+.find-screen {
+  height: calc(100% - 200px);
+}
+
 .recommended-friends {
   margin: 25px 0px;
   padding: 25px 0px;
@@ -11,7 +15,7 @@
 }
 
 .recommended-friends span {
-  margin: 100px 0px;
+  margin: 50px 0px;
   display: block;
   text-align: center;
   font-size: 18px;
