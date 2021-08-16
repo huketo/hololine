@@ -73,6 +73,11 @@
   margin: 0px 10px;
 }
 
+.tab-menu__tab-con .user-component__column a:nth-of-type(3) {
+  color: #ff4300;
+  margin-right: 9px;
+}
+
 .tab-menu__tab-con__title {
   color: var(--text-color-gray);
   font-size: 15px;
