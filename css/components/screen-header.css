@@ -21,6 +21,18 @@
   position: relative;
 }
 
+@keyframes scaleDot {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .screen-header__icons-dot {
   background-color: tomato;
   width: 8px;
@@ -32,6 +44,7 @@
   position: absolute;
   left: 22px;
   bottom: 22px;
+  animation: scaleDot 1s ease-in-out infinite;
 }
 
 @keyframes scaleSearch {
