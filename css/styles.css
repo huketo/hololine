@@ -20,10 +20,10 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
-@import "screens/chat.css";
-@import "screens/chat-fubuki.css";
-@import "screens/chat-coco.css";
-@import "screens/chat-gura.css";
+@import "screens/chat/chat.css";
+@import "screens/chat/chat-fubuki.css";
+@import "screens/chat/chat-coco.css";
+@import "screens/chat/chat-gura.css";
 
 body {
   color: #2e363e;

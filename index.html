@@ -1,52 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" href="css/styles.css" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Holo Line</title>
-</head>
-<body id="body">
+  </head>
+  <body id="body">
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No service</span>
-            <i class="fas fa-wifi"></i>
-        </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>140%</span>
-            <i class="fas fa-battery-full fa-lg"></i>
-            <i class="fas fa-bolt"></i>
-        </div>
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>140%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
     </div>
 
     <header class="welcome-header">
+<<<<<<< HEAD
         <div class="welcome-header__logo">
             <img src="images/Hololive.jpg" />
             <h1 class="welcome-header__logo-title">HoloLine</h1>
         </div>
         <h1 class="welcome-header__title">Welcome to HoloLine</h1>
         <p class="welcome-header__text">If you have a Holo Account, log in with your email or phone number.</p>
+=======
+      <div class="welcome-header__logo">
+        <img src="images/Hololive.jpg" />
+        <h1 class="welcome-header__logo-title">HoloLine</h1>
+      </div>
+      <h1 class="welcome-header__title">Welcome to HoloLine</h1>
+      <p class="welcome-header__text">
+        If you have a Holo Account, log in with your email or phone number.
+      </p>
+>>>>>>> main
     </header>
 
     <form action="friends.html" method="GET" id="login-form">
-        <input required name="username" type="text" placeholder="Email or phone number" />
-        <input required minlength="10" name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Holo Account or Password</a>
+      <input
+        required
+        name="username"
+        type="text"
+        placeholder="Email or phone number"
+      />
+      <input
+        required
+        minlength="10"
+        name="password"
+        type="password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Holo Account or Password</a>
     </form>
 
     <div id="no-mobile">
-        <span>Your screen is too big T.T</span>
+      <span>Your screen is too big T.T</span>
     </div>
 
-
-    <script 
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous">
-    </script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
