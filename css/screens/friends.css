@@ -55,7 +55,7 @@
   justify-content: center;
   align-items: center;
   animation: hideSplashScreen 0.5s ease-in-out forwards;
-  animation-delay: 5s;
+  animation-delay: 2s;
 }
 
 .friends-screen > .user-component:hover {
