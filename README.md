@@ -1,18 +1,16 @@
-# HoloLine (kakaotalk clone page)
+# HoloLine
 
-`HTML5` + `CSS3`로 만든 카카오톡 클론 페이지
+HoloLine: A Hololive Fan Site Designed in Messenger Style
 
-## Introduce
-
-> **HoloLine**은 [Hololive 프로덕션](https://en.hololive.tv/)의 버츄얼 유튜버들을 소개하는 `kakaotalk`을 클론한 페이지로 순수 `HTML5`와 `CSS3`으로만 작성되었습니다. `sementic tag`를 적극적으로 활용할려고 하면서 `css class` 네이밍을 사용용도에 맞게 `BEM`방식으로 작성하였습니다. 또한 `CSS Animation`이 채팅창에서 구현되었습니다.
-
-[HoloLine](https://huketo.github.io/kokoa-clone-2021/) 바로가기
+Use only `html` + `css`, no javascript
 
 ## Images
 
-<img src="images/hololine-1.png" width="200px" />
-<img src="images/hololine-2.png" width="200px" />
-<img src="images/hololine-5.png" width="200px" />
+<div style="display: flex; justify-content: center; gap: 12px;">
+    <img src="screenshots/hololine-1.png" width="200px" />
+    <img src="screenshots/hololine-2.png" width="200px" />
+    <img src="screenshots/hololine-5.png" width="200px" />
+</div>
 
 ## Nomad Coder Challenges
 
