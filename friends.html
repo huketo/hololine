@@ -8,1696 +8,2028 @@
     <title>Friends - Holo Line</title>
   </head>
   <body id="body">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No service</span>
-        <i class="fas fa-wifi"></i>
+    <div class="mobile-simulation">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>140%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>140%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
-    </header>
+      <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+      </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
+      <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+      </a>
 
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://memeprod.sgp1.digitaloceanspaces.com/user-resource/e48a11585081e860a7f3c90cc0fbe345.png"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Yagoo (CEO)</h4>
-            <h6 class="user-component__subtitle">I'm dreamer.</h6>
+      <main class="friends-screen">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="images/yagoo.png"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Yagoo (CEO)</h4>
+              <h6 class="user-component__subtitle">I'm dreamer.</h6>
+            </div>
+          </div>
+          <div class="user-component__column"></div>
+        </div>
+        <div class="friends-screen__channel">
+          <div class="friends-screen__channel-header">
+            <span>Channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+          </div>
+
+          <div class="tab-menu">
+            <ul>
+              <li id="tab-jp" class="tab-menu__btn-con">
+                <input type="radio" checked name="tabmenu" id="tabmenu-jp" />
+                <label for="tabmenu-jp">JP</label>
+                <div class="tab-menu__tab-con">
+                  <!-- 0th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">0th Generation</span>
+                    <!-- Tokino Sora -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Tokino_Sora_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Tokino Sora
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/tokino_sora"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Roboco -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Roboco_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Roboco
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/robocosan"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/robocosannnn"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Sakura Miko -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Sakura_Miko_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Sakura Miko
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/sakuramiko35"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/SakuraMiko_hololive"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Hoshimachi Suisei -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Hoshimachi_Suisei_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Hoshimachi Suisei
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/suisei_hosimati"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- AZKi -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/AZKi_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            AZKi
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/AZKi_VDiVA"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 1th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">1th Generation</span>
+                    <!-- Yozora Mel -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Yozora_Mel_-_Portrait_01-2.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Yozora Mel 🎓
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/yozoramel"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/Yozora_Mel"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Shirakami Fubuki -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Shirakami_Fubuki_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Shirakami Fubuki
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/shirakamifubuki"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/s_fbk"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Natsuiro Matsuri -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Natsuiro_Matsuri_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Natsuiro Matsuri
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCQ0UDLQCjY0rmuxCDE38FGg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/natsuiromatsuri"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/7216_official"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Aki Rosenthal -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Aki_Rosenthal_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Aki Rosenthal
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/akirosenthal"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/akirosenthal"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Akai Haato -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Akai_Haato_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Akai Haato
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC1CfXB_kRs3C-zaeTG3oGyg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/akaihaato"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 2th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">2th Generation</span>
+                    <!-- Minato Aqua -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Minato_Aqua_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Minato Aqua
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/minatoaqua"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Murasaki Shion -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Murasaki_Shion_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Murasaki Shion
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/murasakishionch"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Nakiri Ayame -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Nakiri_Ayame_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Nakiri Ayame
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/nakiriayame"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Yuzuki Choco -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Yuzuki_Choco_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Yuzuki Choco
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/yuzukichococh"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Oozora Subaru -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Oozora_Subaru_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Oozora Subaru
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/oozorasubaru"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Hololive GAMERS -->
+                  <div>
+                    <span class="tab-menu__tab-con__title"
+                      >Hololive GAMERS</span
+                    >
+                    <!-- Ookami Mio -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Ookami_Mio_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Ookami Mio
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/ookamimio"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Nekomata Okayu -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Nekomata_Okayu_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Nekomata Okayu
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/nekomataokayu"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Inugami Korone -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Inugami_Korone_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Inugami Korone
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/inugamikorone"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 3th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">3th Generation</span>
+                    <!-- Usada Pekora -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Usada_Pekora_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Usada Pekora
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/usadapekora"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Uruha Rushia -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Uruha_Rushia_-_Portrait_01.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Uruha Rushia 🎓
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/uruharushia"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Shiranui Flare -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Shiranui_Flare_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Shiranui Flare
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/shiranuiflare"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/shiranuiflare"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Shirogane Noel -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Shirogane_Noel_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Shirogane Noel
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/shiroganenoel"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/Noel_Danchou"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Houshou Marine -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Houshou_Marine_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Houshou Marine
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/houshoumarine"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/HoushouMarineLEGIT"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 4th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">4th Generation</span>
+                    <!-- Amane Kanata -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Amane_Kanata_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Amane Kanata
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/amanekanatach"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/AmaneKanata"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tsunomaki Watame -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Tsunomaki_Watame_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Tsunomaki Watame
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/tsunomakiwatame"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/Tsunomakiwatame"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tokoyami Towa -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Tokoyami_Towa_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Tokoyami Towa
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC1uv2Oq6kNxgATlCiez59hw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/tokoyamitowa"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Himemori Luna -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Himemori_Luna_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Himemori Luna
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCa9Y57gfeY0Zro_noHRVrnw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/himemoriluna"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Kiryu Coco -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Kiryu_Coco_-_Portrait_01.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Kiryu Coco 🎓
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/kiryucoco"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/CocoKiryu"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 5th Generation -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">5th Generation</span>
+                    <!-- Yukihana Lamy -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Yukihana_Lamy_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Yukihana Lamy
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/yukihanalamy"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Momosuzu Nene -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Momosuzu_Nene_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Momosuzu Nene
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/momosuzunene"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Shishiro Botan -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Shishiro_Botan_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Shishiro Botan
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCUKD-uaobj9jiqB-VXt71mA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/shishirobotan"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/shishirobotaaaaan"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Omaru Polka -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Omaru_Polka_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Omaru Polka
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/omarupolka"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Mano Aloe -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Mano_Aloe_-_Portrait_01.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Unknown
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 6th Generation: Secret Society holoX -->
+                  <div>
+                    <span class="tab-menu__tab-con__title"
+                      >6th Generation: Secret Society holoX</span
+                    >
+                    <!-- La+ Darknesss -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Laplus_Darknesss_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            La+ Darknesss
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCENwRMx5Yh42zWpzURebzTw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/LaplusDarknesss"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Takane Lui -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Takane_Lui_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Takane Lui
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCs9_O1tRPMQTHQ-N_L6FU2g"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/takanelui"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/TakaneLui"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Hakui Koyori -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Hakui_Koyori_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Hakui Koyori
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC6eWCld0KwmyHFbAqK3V-Rw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/hakuikoyori"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Sakamata Chloe -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Sakamata_Chloe_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Sakamata Chloe
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCIBY1ollUsauvVi4hW4cumw"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/sakamatachloe"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Kazama Iroha -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Kazama_Iroha_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Kazama Iroha
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC_vMYWcDjmfdpH6r4TTn1MQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/kazamairohach"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ReGLOSS -->
+                  <div>
+                    <span class="tab-menu__tab-con__title"> ReGLOSS </span>
+                    <!-- Hiodoshi Ao -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Hiodoshi_Ao_-_Main_Page_Icon.png"
+                          alt="Hiodoshi Ao"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4 class="user-component__title user-component__title--not-bold">
+                            Hiodoshi Ao
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@HiodoshiAo"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/hiodoshiao"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Otonose Kanade -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Otonose_Kanade_-_Main_Page_Icon.png"
+                          alt="Otonose Kanade"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4 class="user-component__title user-component__title--not-bold">
+                            Otonose Kanade
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@OtonoseKanade"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/otonosekanade"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Ichijou Ririka -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Ichijou_Ririka_-_Main_Page_Icon.png"
+                          alt="Ichijou Ririka"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4 class="user-component__title user-component__title--not-bold">
+                            Ichijou Ririka
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@IchijouRirika"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/ichijouririka"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Juufuutei Raden -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Juufuutei_Raden_-_Main_Page_Icon.png"
+                          alt="Juufuutei Raden"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4 class="user-component__title user-component__title--not-bold">
+                            Juufuutei Raden
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@JuufuuteiRaden"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/juufuuteiraden"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Todoroki Hajime -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Todoroki_Hajime_-_Main_Page_Icon.png"
+                          alt="Todoroki Hajime"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4 class="user-component__title user-component__title--not-bold">
+                            Todoroki Hajime
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@TodorokiHajime"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/todoroki_hajime"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </li>
+              <li id="tab-en" class="tab-menu__btn-con">
+                <input type="radio" name="tabmenu" id="tabmenu-en" />
+                <label for="tabmenu-en">EN</label>
+                <div class="tab-menu__tab-con">
+                  <!-- hololive English -Myth- -->
+                  <div>
+                    <span class="tab-menu__tab-con__title"
+                      >hololive English -Myth-</span
+                    >
+                    <!-- Mori Calliope -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Mori_Calliope_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Mori Calliope
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/moricalliope"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/calliopemori"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Takanashi Kiara -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Takanashi_Kiara_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Takanashi Kiara
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/takanashikiara"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/takanashikiara"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Ninomae Ina'nis -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Ninomae_Ina'nis_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Ninomae Ina'nis
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/ninomaeinanis"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/InaInaInaa"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Gawr Gura -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Gawr_Gura_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Gawr Gura
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a target="_blank" href="https://twitter.com/gawrgura"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Watson Amelia -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Watson_Amelia_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Watson Amelia
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/watsonameliaEN"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/watsonamelia"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Hololive English -Promise- -->
+                  <div>
+                    <span class="tab-menu__tab-con__title"
+                    >Hololive English -Promise-</span
+                    >
+                    <!-- IRys -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/IRyS_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            IRys
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC8rcEBzJSleTkf_-agPM20g"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a target="_blank" href="https://twitter.com/irys_en"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Ceres Fauna -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Ceres_Fauna_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Ceres Fauna
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/ceresfauna"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Ouro Kronii -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Ouro_Kronii_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Ouro Kronii
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/ourokronii"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Nanashi Mumei -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Nanashi_Mumei_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Nanashi Mumei
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/nanashimumei_en"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Hakos Baelz -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Hakos_Baelz_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Hakos Baelz
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/hakosbaelz"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://www.reddit.com/user/HakosBaelz"
+                            ><i class="fab fa-reddit fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tsukumo Sana -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Tsukumo_Sana_-_Portrait_01.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Tsukumo Sana 🎓
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/tsukumosana"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Hololive English -Advent- -->
+                  <div>
+                    <span class="tab-menu__tab-con__title">
+                      Hololive English -Advent-
+                    </span>
+                    <!-- Shiori Novella -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Shiori_Novella_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Shiori Novella
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@ShioriNovella"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/shiorinovella"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Koseki Bijou -->
+                    <div class="user-component">
+                      <div class="user-component__column">
+                        <img
+                          src="images/Koseki_Bijou_-_Main_Page_Icon.png"
+                          class="user-component__avatar user-component__avatar--sm"
+                        />
+                        <div class="user-component__text">
+                          <h4
+                            class="user-component__title user-component__title--not-bold"
+                          >
+                            Koseki Bijou
+                          </h4>
+                        </div>
+                      </div>
+                      <div class="user-component__column">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.youtube.com/@KosekiBijou"
+                            ><i class="fab fa-youtube fa-2x"></i
+                          ></a>
+                          <a
+                            target="_blank"
+                            href="https://twitter.com/kosekibijou"
+                            ><i class="fab fa-twitter-square fa-2x"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- Nerissa Ravencroft -->
+                  <div class="user-component">
+                    <div class="user-component__column">
+                      <img
+                        src="images/Nerissa_Ravencroft_-_Main_Page_Icon.png"
+                        class="user-component__avatar user-component__avatar--sm"
+                      />
+                      <div class="user-component__text">
+                        <h4
+                          class="user-component__title user-component__title--not-bold"
+                        >
+                          Nerissa Ravencroft
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="user-component__column">
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.youtube.com/@NerissaRavencroft"
+                          ><i class="fab fa-youtube fa-2x"></i
+                        ></a>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/nerissa_en"
+                          ><i class="fab fa-twitter-square fa-2x"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Fuwawa Abyssgard -->
+                  <div class="user-component">
+                    <div class="user-component__column">
+                      <img
+                        src="images/Fuwawa_Abyssgard_-_Main_Page_Icon.png"
+                        class="user-component__avatar user-component__avatar--sm"
+                      />
+                      <div class="user-component__text">
+                        <h4
+                          class="user-component__title user-component__title--not-bold"
+                        >
+                          Fuwawa Abyssgard
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="user-component__column">
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.youtube.com/@FUWAMOCOch"
+                          ><i class="fab fa-youtube fa-2x"></i
+                        ></a>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/fuwamoco_en"
+                          ><i class="fab fa-twitter-square fa-2x"></i
+                        ></a>
+                        <a 
+                          target="_blank" 
+                          href="https://www.reddit.com/user/FUWAMOCO_en">
+                          <i class="fab fa-reddit fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Mococo Abyssgard -->
+                  <div class="user-component">
+                    <div class="user-component__column">
+                      <img
+                        src="images/Mococo_Abyssgard_-_Main_Page_Icon.png"
+                        class="user-component__avatar user-component__avatar--sm"
+                      />
+                      <div class="user-component__text">
+                        <h4
+                          class="user-component__title user-component__title--not-bold"
+                        >
+                          Mococo Abyssgard
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="user-component__column">
+                      <div>
+                        <a
+                          target="_blank"
+                          href="https://www.youtube.com/@FUWAMOCOch"
+                          ><i class="fab fa-youtube fa-2x"></i
+                        ></a>
+                        <a
+                          target="_blank"
+                          href="https://twitter.com/fuwamoco_en"
+                          ><i class="fab fa-twitter-square fa-2x"></i
+                        ></a>
+                        <a 
+                          target="_blank" 
+                          href="https://www.reddit.com/user/FUWAMOCO_en">
+                          <i class="fab fa-reddit fa-2x"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
+      </main>
 
-        <div class="tab-menu">
-          <ul>
-            <li id="tab-jp" class="tab-menu__btn-con">
-              <input type="radio" checked name="tabmenu" id="tabmenu-jp" />
-              <label for="tabmenu-jp">JP</label>
-              <div class="tab-menu__tab-con">
-                <!-- 0th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">0th Generation</span>
-                  <!-- Tokino Sora -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/0/0f/Tokino_Sora_-_Portrait_06-1.png/360px-Tokino_Sora_-_Portrait_06-1.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Tokino Sora
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCp6993wxpyDPHUpavwDFqgg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/tokino_sora"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Roboco -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/7/7e/Roboco_-_Portrait_01-1.png/360px-Roboco_-_Portrait_01-1.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Roboco
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCDqI2jOz0weumE8s7paEk6g"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/robocosan"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/robocosannnn"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Sakura Miko -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/5/51/Sakura_Miko_-_Portrait_3D_03.png/360px-Sakura_Miko_-_Portrait_3D_03.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Sakura Miko
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC-hM6YJuNYVAmUWxeIr9FeA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/sakuramiko35"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/SakuraMiko_hololive"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Hoshimachi Suisei -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/f/f1/Hoshimachi_Suisei_-_Portrait_3D_04.png/360px-Hoshimachi_Suisei_-_Portrait_3D_04.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Hoshimachi Suisei
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC5CwaMl1eIgY8h02uZw7u8A"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/suisei_hosimati"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- AZKi -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/5/51/AZKi_-_Portrait_03.png/360px-AZKi_-_Portrait_03.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          AZKi
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC0TXe_LYZ4scaW2XMyi5_kw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/AZKi_VDiVA"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 1th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">1th Generation</span>
-                  <!-- Yozora Mel -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/f/fe/Yozora_Mel_-_Portrait_01-2.png/360px-Yozora_Mel_-_Portrait_01-2.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Yozora Mel 🎓
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCD8HOxPs4Xvsm8H0ZxXGiBw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/yozoramel"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/Yozora_Mel"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Shirakami Fubuki -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/c/c6/Shirakami_Fubuki_-_Portrait_01.png/360px-Shirakami_Fubuki_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Shirakami Fubuki
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCdn5BQ06XqgXoAxIhbqw5Rg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/shirakamifubuki"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/s_fbk"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Natsuiro Matsuri -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/e/e2/Natsuiro_Matsuri_-_Portrait_01.png/360px-Natsuiro_Matsuri_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Natsuiro Matsuri
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCQ0UDLQCjY0rmuxCDE38FGg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/natsuiromatsuri"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/7216_official"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Aki Rosenthal -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/b/b5/Aki_Rosenthal_-_Portrait_01.png/360px-Aki_Rosenthal_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Aki Rosenthal
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCFTLzh12_nrtzqBPsTCqenA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/akirosenthal"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/akirosenthal"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Akai Haato -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/d/da/Akai_Haato_-_Portrait_01.png/360px-Akai_Haato_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Akai Haato
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC1CfXB_kRs3C-zaeTG3oGyg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/akaihaato"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 2th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">2th Generation</span>
-                  <!-- Minato Aqua -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/6d/Minato_Aqua_-_Portrait_01.png/360px-Minato_Aqua_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Minato Aqua
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC1opHUrw8rvnsadT-iGp7Cg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/minatoaqua"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Murasaki Shion -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/a/ae/Murasaki_Shion_-_Portrait_01.png/359px-Murasaki_Shion_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Murasaki Shion
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCXTpFs_3PqI41qX2d9tL2Rw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/murasakishionch"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Nakiri Ayame -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/4/40/Nakiri_Ayame_-_Portrait_01.png/360px-Nakiri_Ayame_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Nakiri Ayame
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC7fk0CB07ly8oSl0aqKkqFg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/nakiriayame"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Yuzuki Choco -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/a/a7/Yuzuki_Choco_-_Portrait_01.png/360px-Yuzuki_Choco_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Yuzuki Choco
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC1suqwovbL1kzsoaZgFZLKg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/yuzukichococh"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Oozora Subaru -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/1/12/Oozora_Subaru_-_Portrait_01.png/360px-Oozora_Subaru_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Oozora Subaru
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCvzGlP9oQwU--Y0r9id_jnA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/oozorasubaru"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Hololive GAMERS -->
-                <div>
-                  <span class="tab-menu__tab-con__title">Hololive GAMERS</span>
-                  <!-- Ookami Mio -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/4/44/Ookami_Mio_-_Portrait_01.png/360px-Ookami_Mio_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Ookami Mio
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCp-5t9SrOQwXMU7iIjQfARg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/ookamimio"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Nekomata Okayu -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/0/0c/Nekomata_Okayu_-_Portrait_01.png/360px-Nekomata_Okayu_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Nekomata Okayu
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCvaTdHTWBGv3MKj3KVqJVCw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/nekomataokayu"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Inugami Korone -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/e/e4/Inugami_Korone_-_Portrait_01.png/360px-Inugami_Korone_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Inugami Korone
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/inugamikorone"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 3th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">3th Generation</span>
-                  <!-- Usada Pekora -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/d/d0/Usada_Pekora_-_Portrait_01.png/360px-Usada_Pekora_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Usada Pekora
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/usadapekora"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Uruha Rushia -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/1/16/Uruha_Rushia_-_Portrait_01.png/360px-Uruha_Rushia_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Uruha Rushia 🎓
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCl_gCybOJRIgOXw6Qb4qJzQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/uruharushia"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Shiranui Flare -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/1/1b/Shiranui_Flare_-_Portrait_01.png/360px-Shiranui_Flare_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Shiranui Flare
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCvInZx9h3jC2JzsIzoOebWg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/shiranuiflare"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/shiranuiflare"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Shirogane Noel -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/8/8c/Shirogane_Noel_-_Portrait_01.png/360px-Shirogane_Noel_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Shirogane Noel
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCdyqAaZDKHXg4Ahi7VENThQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/shiroganenoel"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/Noel_Danchou"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Houshou Marine -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/c/cb/Houshou_Marine_-_Portrait_01.png/360px-Houshou_Marine_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Houshou Marine
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCCzUftO8KOVkV4wQG1vkUvg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/houshoumarine"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/HoushouMarineLEGIT"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 4th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">4th Generation</span>
-                  <!-- Amane Kanata -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/3/36/Amane_Kanata_-_Portrait_01.png/360px-Amane_Kanata_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Amane Kanata
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCZlDXzGoo7d44bwdNObFacg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/amanekanatach"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/AmaneKanata"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Tsunomaki Watame -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/0/05/Tsunomaki_Watame_-_Portrait_01.png/360px-Tsunomaki_Watame_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Tsunomaki Watame
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/tsunomakiwatame"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/Tsunomakiwatame"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Tokoyami Towa -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/9/9d/Tokoyami_Towa_-_Portrait_01.png/360px-Tokoyami_Towa_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Tokoyami Towa
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC1uv2Oq6kNxgATlCiez59hw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/tokoyamitowa"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Himemori Luna -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/c/ce/Himemori_Luna_-_Portrait_01.png/360px-Himemori_Luna_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Himemori Luna
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCa9Y57gfeY0Zro_noHRVrnw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/himemoriluna"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Kiryu Coco -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/c/ce/Kiryu_Coco_-_Portrait_01.png/290px-Kiryu_Coco_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Kiryu Coco 🎓
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCS9uQI-jC3DE0L4IpXyvr6w"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/kiryucoco"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/CocoKiryu"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 5th Generation -->
-                <div>
-                  <span class="tab-menu__tab-con__title">5th Generation</span>
-                  <!-- Yukihana Lamy -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/68/Yukihana_Lamy_-_Portrait_01.png/360px-Yukihana_Lamy_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Yukihana Lamy
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCFKOVgVbGmX65RxO3EtH3iw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/yukihanalamy"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Momosuzu Nene -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/a/a0/Momosuzu_Nene_-_Portrait_02.png/360px-Momosuzu_Nene_-_Portrait_02.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Momosuzu Nene
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCAWSyEs_Io8MtpY3m-zqILA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/momosuzunene"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Shishiro Botan -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/e/e2/Shishiro_Botan_-_Portrait_01.png/360px-Shishiro_Botan_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Shishiro Botan
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCUKD-uaobj9jiqB-VXt71mA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/shishirobotan"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/shishirobotaaaaan"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Omaru Polka -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/c/c3/Omaru_Polka_-_Portrait_01.png/360px-Omaru_Polka_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Omaru Polka
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCK9V2B22uJYu3N7eR_BT9QA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/omarupolka"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Mano Aloe -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/9/98/Mano_Aloe_-_Portrait_01.png/360px-Mano_Aloe_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Unknown
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div></div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- 6th Generation: Secret Society holoX -->
-                <div>
-                  <span class="tab-menu__tab-con__title"
-                    >6th Generation: Secret Society holoX</span
-                  >
-                  <!-- La+ Darknesss -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/9/97/La%2B_Darknesss_-_Portrait_01.png/280px-La%2B_Darknesss_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          La+ Darknesss
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCENwRMx5Yh42zWpzURebzTw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/LaplusDarknesss"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Takane Lui -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/b/be/Takane_Lui_-_Portrait_01.png/280px-Takane_Lui_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Takane Lui
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCs9_O1tRPMQTHQ-N_L6FU2g"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/takanelui"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/TakaneLui"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Hakui Koyori -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/4/4f/Hakui_Koyori_-_Portrait_01.png/280px-Hakui_Koyori_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Hakui Koyori
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC6eWCld0KwmyHFbAqK3V-Rw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/hakuikoyori"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Sakamata Chloe -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/61/Sakamata_Chloe_-_Portrait_01.png/280px-Sakamata_Chloe_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Sakamata Chloe
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCIBY1ollUsauvVi4hW4cumw"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/sakamatachloe"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Kazama Iroha -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/1/1f/Kazama_Iroha_-_Portrait_01.png/280px-Kazama_Iroha_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Kazama Iroha
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC_vMYWcDjmfdpH6r4TTn1MQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/kazamairohach"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li id="tab-en" class="tab-menu__btn-con">
-              <input type="radio" name="tabmenu" id="tabmenu-en" />
-              <label for="tabmenu-en">EN</label>
-              <div class="tab-menu__tab-con">
-                <!-- hololive English -Myth- -->
-                <div>
-                  <span class="tab-menu__tab-con__title"
-                    >hololive English -Myth-</span
-                  >
-                  <!-- Mori Calliope -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/4/4e/Mori_Calliope_-_Portrait_01.jpg/360px-Mori_Calliope_-_Portrait_01.jpg"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Mori Calliope
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCL_qhgtOy0dy1Agp8vkySQg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/moricalliope"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/calliopemori"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Takanashi Kiara -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/6e/Takanashi_Kiara_-_Portrait_01.png/360px-Takanashi_Kiara_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Takanashi Kiara
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCHsx4Hqa-1ORjQTh9TYDhww"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/takanashikiara"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/takanashikiara"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Ninomae Ina'nis -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/8/88/Ninomae_Ina%27nis_-_Portrait_01.jpg/360px-Ninomae_Ina%27nis_-_Portrait_01.jpg"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Ninomae Ina'nis
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/ninomaeinanis"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/InaInaInaa"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Gawr Gura -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/69/Gawr_Gura_-_Portrait_01.png/360px-Gawr_Gura_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Gawr Gura
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCoSrY_IQQVpmIRZ9Xf-y93g"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/gawrgura"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Watson Amelia -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/e/e8/Watson_Amelia_-_Portrait_01.png/360px-Watson_Amelia_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Watson Amelia
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCyl1z3jo3XHR1riLFKG5UAg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/watsonameliaEN"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/watsonamelia"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Project: HOPE -->
-                <div>
-                  <span class="tab-menu__tab-con__title">Project: HOPE</span>
-                  <!-- IRys -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/2/29/IRyS_-_Portrait_01.png/360px-IRyS_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          IRys
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC8rcEBzJSleTkf_-agPM20g"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/irys_en"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- hololive English -Council- -->
-                <div>
-                  <span class="tab-menu__tab-con__title"
-                    >hololive English -Council-</span
-                  >
-                  <!-- Ceres Fauna -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/a/ab/Ceres_Fauna_-_Portrait_01.png/280px-Ceres_Fauna_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Ceres Fauna
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCO_aKKYxn4tvrqPjcTzZ6EQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/ceresfauna"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Ouro Kronii -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/a/a1/Ouro_Kronii_-_Portrait_01.png/280px-Ouro_Kronii_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Ouro Kronii
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCmbs8T6MWqUHP1tIQvSgKrg"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/ourokronii"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Nanashi Mumei -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/8/80/Nanashi_Mumei_-_Portrait_01.png/280px-Nanashi_Mumei_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Nanashi Mumei
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UC3n5uGu18FoCy23ggWWp8tA"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/nanashimumei_en"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Hakos Baelz -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/1/16/Hakos_Baelz_-_Portrait_01.png/280px-Hakos_Baelz_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Hakos Baelz
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCgmPnx-EEeOrZSg5Tiw7ZRQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a target="_blank" href="https://twitter.com/hakosbaelz"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://www.reddit.com/user/HakosBaelz"
-                          ><i class="fab fa-reddit fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Tsukumo Sana -->
-                  <div class="user-component">
-                    <div class="user-component__column">
-                      <img
-                        src="https://static.miraheze.org/hololivewiki/thumb/6/6f/Tsukumo_Sana_-_Portrait_01.png/280px-Tsukumo_Sana_-_Portrait_01.png"
-                        class="user-component__avatar user-component__avatar--sm"
-                      />
-                      <div class="user-component__text">
-                        <h4
-                          class="user-component__title user-component__title--not-bold"
-                        >
-                          Tsukumo Sana 🎓
-                        </h4>
-                      </div>
-                    </div>
-                    <div class="user-component__column">
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://www.youtube.com/channel/UCsUj0dszADCGbF3gNrQEuSQ"
-                          ><i class="fab fa-youtube fa-2x"></i
-                        ></a>
-                        <a
-                          target="_blank"
-                          href="https://twitter.com/tsukumosana"
-                          ><i class="fab fa-twitter-square fa-2x"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </main>
-
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">4</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <div class="nav__notification-dot"></div>
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html">
+              <i class="fas fa-user fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chats.html">
+              <span class="nav__notification badge">4</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+              <i class="fas fa-search fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <div class="nav__notification-dot"></div>
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
     <div id="splash-screen">
       <img
         src="https://c.tenor.com/_jGqjsqWaocAAAAC/gawr-gura-loading-gawr.gif"
       />
     </div>
-
-    <div id="no-mobile">
-      <span>Your screen is too big T.T</span>
-    </div>
-
     <script
       src="https://kit.fontawesome.com/d9ed2c234f.js"
       crossorigin="anonymous"

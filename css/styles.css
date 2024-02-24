@@ -11,7 +11,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
-@import "components/no-mobile.css";
+@import "components/mobile.css";
 @import "components/tab-menu.css";
 
 /* Screens */
@@ -25,12 +25,24 @@
 @import "screens/chat/chat-coco.css";
 @import "screens/chat/chat-gura.css";
 
-body {
-  color: #2e363e;
-  font-family: "Open Sans", sans-serif;
-  height: 100vh;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: var(--blue); /* 배경색으로 --blue 변수 사용 */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* 컨텐츠를 화면 중앙에 배치 */
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }

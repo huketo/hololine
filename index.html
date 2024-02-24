@@ -8,52 +8,53 @@
     <title>Welcome to Holo Line</title>
   </head>
   <body id="body">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No service</span>
-        <i class="fas fa-wifi"></i>
+    <div class="mobile-simulation justify-between">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>140%</span>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>140%</span>
-        <i class="fas fa-battery-full fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
-    </div>
 
-    <header class="welcome-header">
-      <div class="welcome-header__logo">
-        <img src="images/Hololive.jpg" />
-        <h1 class="welcome-header__logo-title">HoloLine</h1>
-      </div>
-      <h1 class="welcome-header__title">Welcome to HoloLine</h1>
-      <p class="welcome-header__text">
-        If you have a Holo Account, log in with your email or phone number.
-      </p>
-    </header>
+      <header class="welcome-header">
+        <div class="welcome-header__logo">
+          <img src="images/Hololive.jpg" />
+          <h1 class="welcome-header__logo-title">HoloLine</h1>
+        </div>
+        <h1 class="welcome-header__title">Welcome to HoloLine</h1>
+        <p class="welcome-header__text">
+          If you have a Holo Account, log in with your email or phone number.
+        </p>
+        <p class="welcome-header__text">
+          Actually, you don't need a real account.
+        </p>
+      </header>
 
-    <form action="friends.html" method="GET" id="login-form">
-      <input
-        required
-        name="username"
-        type="text"
-        placeholder="Email or phone number"
-      />
-      <input
-        required
-        minlength="10"
-        name="password"
-        type="password"
-        placeholder="Password"
-      />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Holo Account or Password</a>
-    </form>
-
-    <div id="no-mobile">
-      <span>Your screen is too big T.T</span>
+      <form action="friends.html" method="GET" id="login-form">
+        <input
+          required
+          name="username"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input
+          required
+          minlength="10"
+          name="password"
+          type="password"
+          placeholder="Password"
+        />
+        <input type="submit" value="Log In" />
+        <a href="#">Find Holo Account or Password</a>
+      </form>
     </div>
 
     <script

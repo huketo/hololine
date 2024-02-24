@@ -1,5 +1,4 @@
 #chat-screen {
-  background-color: #abc1d1;
   height: 500vh;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
@@ -11,8 +10,9 @@
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
+  position: absolute;
   top: 0;
-  position: fixed;
+  left: 0;
   width: 100%;
   box-sizing: border-box;
   background-color: #abc1d1;
@@ -135,8 +135,9 @@
 }
 
 .reply {
-  position: fixed;
+  position: absolute;
   bottom: 0;
+  left: 0;
   width: 100%;
   background-color: white;
   display: flex;
@@ -178,7 +179,7 @@
 
 .reply__column:last-child > i {
   right: 50px;
-  top: 15px;
+  top: 23px;
 }
 
 .reply__column button {
@@ -212,7 +213,7 @@
 }
 
 .reply input:focus {
-  width: 98vw;
+  width: 412px;
   transform: translateX(-13%) translateY(-80px);
 }
 
