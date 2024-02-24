@@ -46,6 +46,7 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+  font-size: 15px;
 }
 
 .user-component__column:last-child {
